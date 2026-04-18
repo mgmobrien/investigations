@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>investigations.md</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f3efe4;
+        --ink: #171512;
+        --muted: #5d564f;
+        --line: #cdbfa8;
+        --panel: rgba(255, 252, 246, 0.88);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background:
+          radial-gradient(circle at top, rgba(142, 109, 67, 0.22), transparent 38%),
+          linear-gradient(180deg, #fbf7ee 0%, var(--bg) 100%);
+        color: var(--ink);
+        font: 16px/1.5 Georgia, "Times New Roman", serif;
+      }
+
+      main {
+        width: min(720px, calc(100vw - 2rem));
+        padding: 2.5rem;
+        border: 1px solid var(--line);
+        background: var(--panel);
+        box-shadow: 0 24px 60px rgba(35, 24, 13, 0.12);
+      }
+
+      p {
+        margin: 0 0 1rem;
+      }
+
+      .eyebrow {
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--muted);
+        font-size: 0.82rem;
+      }
+
+      h1 {
+        margin: 0 0 1rem;
+        font-size: clamp(2.4rem, 7vw, 4.8rem);
+        line-height: 0.95;
+        font-weight: 600;
+      }
+
+      .status {
+        margin-top: 1.5rem;
+        padding-top: 1rem;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">investigations.md</p>
+      <h1>Placeholder deployment</h1>
+      <p>The domain is bootstrapped and serving a minimal holding page.</p>
+      <p>The actual site has not been designed or built yet.</p>
+      <p class="status">Status: live placeholder while the project is still empty.</p>
+    </main>
+  </body>
+</html>
