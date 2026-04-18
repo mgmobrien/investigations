@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Dependencies
+node_modules/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Common build output
+dist/
+build/
+coverage/
